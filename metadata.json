@@ -1,0 +1,10 @@
+
+{
+  "name": "네온 스매쉬: 에이스 코어 (NEON SMASH: ACE CORE)",
+  "description": "글로벌 사이버펑크 테니스 액션. AI 코칭 시스템과 초고속 신경망 게임플레이를 통해 세계 무대에서 경쟁하십시오.",
+  "packageId": "com.neonsmash.acecore.global",
+  "version": "1.0.0",
+  "category": "Games/Sports",
+  "developer": "NeonSmash Dev",
+  "requestFramePermissions": []
+}
