@@ -766,7 +766,7 @@ const GameEngine: React.FC<GameEngineProps> = ({ mode, onGameOver, onHome, playe
                 onClick={skipTutorial}
                 className="absolute top-[calc(env(safe-area-inset-top)+1.5rem)] right-6 glass-card px-4 py-2 rounded-xl border-emerald-500/20 text-[10px] font-orbitron font-black text-emerald-400 pointer-events-auto active:scale-95"
             >
-                SKIP >>
+                {"건너뛰기 >>"}
             </button>
             
             <div className="glass-card p-8 rounded-[40px] border-emerald-500/30 text-center max-w-[280px] pointer-events-auto">
