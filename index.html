@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Racing Car</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #050011;
+        font-family: 'Rajdhani', sans-serif;
+        touch-action: none;
+      }
+      .font-cyber {
+        font-family: 'Orbitron', sans-serif;
+      }
+      @keyframes pulse-ui {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); box-shadow: 0 0 30px rgba(6, 182, 212, 0.4); }
+        100% { transform: scale(1); }
+      }
+      .animate-pulse-ui {
+        animation: pulse-ui 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      /* 스크롤바 숨기기 유틸리티 */
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@react-three/postprocessing": "https://aistudiocdn.com/@react-three/postprocessing@^3.0.4",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
+    "zustand": "https://aistudiocdn.com/zustand@^5.0.8",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "three": "https://aistudiocdn.com/three@^0.181.1",
+    "postprocessing": "https://aistudiocdn.com/postprocessing@^6.38.0",
+    "this": "https://esm.sh/this@^1.1.0",
+    "zustand/": "https://esm.sh/zustand@^5.0.11/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
